@@ -28,6 +28,9 @@ let diagram = starRing.iterateScale(0.74, iterate: 6)
 showCoreGraphicsDiagram(size: CGSize(width: 600, height: 500)) {
   drawDiagram(diagram, context: $0)
 }
+
+let test = 1
+
 /*:
 To see the result, View>Assistant Editor>Show Assistant Editor (opt-cmd-Return).
 
